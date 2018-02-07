@@ -22,7 +22,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.lounaat.info/"
+        "https://www.lounaat.info/*"
       ],
       "css": [
         "src/inject/inject.css"
@@ -30,7 +30,7 @@
     },
     {
       "matches": [
-        "https://www.lounaat.info/"
+        "https://www.lounaat.info/*"
       ],
       "js": [
         "src/inject/inject.js"
