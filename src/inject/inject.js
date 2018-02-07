@@ -34,7 +34,7 @@ function RavintolaArvonta(){
 }
 
 
-chrome.extension.sendMessage({}, function(response) {
+
 
 
 
@@ -72,7 +72,3 @@ chrome.extension.sendMessage({}, function(response) {
 
 	}
 	}, 10);
-
-
-
-});
