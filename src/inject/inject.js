@@ -68,11 +68,10 @@ function RavintolaArvonta() {
     window.scrollTo(0, parseInt(str));
     rotateitem(nod, 0, 1000);
     setTimeout(function() {
-        base = nod.children[0].children[1].baseURI;
         str = nod.children[0].children[1].innerHTML;
         str = str.substring(str.indexOf('"/') + 2);
         str = str.substring(0, str.indexOf('"'));
-        location.href = base + str;
+        location.href = "https://www.lounaat.info/" + str;
     }, 3000);
 }
 
